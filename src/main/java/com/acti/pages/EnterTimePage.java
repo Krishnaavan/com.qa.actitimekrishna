@@ -17,6 +17,7 @@ public class EnterTimePage extends DriverScript
 	public EnterTimePage()
 	{
 		PageFactory.initElements(driver, this);
+		System.out.println("test for pushing from local to remote git");
 	}
 	
 	//methods
