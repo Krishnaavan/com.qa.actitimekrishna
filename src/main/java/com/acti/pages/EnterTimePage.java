@@ -12,6 +12,7 @@ public class EnterTimePage extends DriverScript
 	@FindBy(xpath = "//a[@class='userProfileLink username ']") WebElement txtLnkUsrName;
 	@FindBy(id = "logoutLink") WebElement lnkLogout;
 	@FindBy(xpath="//a[@class='content tasks']") WebElement menuTask;
+	
 	//Constructor
 	public EnterTimePage()
 	{

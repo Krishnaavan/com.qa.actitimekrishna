@@ -63,6 +63,7 @@ public class BaseTest extends DriverScript
 	{
 		ExcelLib lib = new ExcelLib("./atdata/actidata.xlsx");
 		int rows = lib.getRowCount(0);
+		
 		Object[][] data = new Object[rows][2];
 		for (int i=0; i<rows; i++)
 		{
